@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+  }
+  
+  .main-grid {
+    display: flex;
+  }
+  
+  .play-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+  }
+  
+  .logo, .square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+  }

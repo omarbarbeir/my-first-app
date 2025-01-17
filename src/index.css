@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.riskBtn{
+  font-size: 24px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: rgb(0 0 0 /0.2);
+  height: 130px;
+  width: 100%;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  cursor: pointer;
+}
+.riskPlay{
+  width: 250px;
+  height: 60px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 10px
+}
+.who_photos_buttonns{
+  width: 130px;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: rgb(250 202 21 / 0.9)
+}
+.mission{
+  font-family: 'Pricedown Bl', sans-serif;
+  font-size: 37px;
+  color:#efb115;
+  font-weight:bolder
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
