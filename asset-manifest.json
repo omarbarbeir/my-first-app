@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-first-app/static/css/main.bd0a4744.css",
-    "main.js": "/my-first-app/static/js/main.853df2ce.js",
+    "main.js": "/my-first-app/static/js/main.1ec41f15.js",
     "static/js/885.fadb90ec.chunk.js": "/my-first-app/static/js/885.fadb90ec.chunk.js",
     "static/js/488.9dd93a3b.chunk.js": "/my-first-app/static/js/488.9dd93a3b.chunk.js",
     "static/media/Benoit Badiashile.png": "/my-first-app/static/media/Benoit Badiashile.20ae25bc16be3c80d606.png",
@@ -1040,12 +1040,12 @@
     "static/media/ahmed shaikh.jpeg": "/my-first-app/static/media/ahmed shaikh.8d854471f6f4037f23c1.jpeg",
     "index.html": "/my-first-app/index.html",
     "main.bd0a4744.css.map": "/my-first-app/static/css/main.bd0a4744.css.map",
-    "main.853df2ce.js.map": "/my-first-app/static/js/main.853df2ce.js.map",
+    "main.1ec41f15.js.map": "/my-first-app/static/js/main.1ec41f15.js.map",
     "885.fadb90ec.chunk.js.map": "/my-first-app/static/js/885.fadb90ec.chunk.js.map",
     "488.9dd93a3b.chunk.js.map": "/my-first-app/static/js/488.9dd93a3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd0a4744.css",
-    "static/js/main.853df2ce.js"
+    "static/js/main.1ec41f15.js"
   ]
 }
