@@ -77,6 +77,7 @@ const Hang = () => {
       .map((letter) => {
         if (letter === ' ') {
           return ' '; // Keep spaces as empty spaces
+          
         }
         return guessedLetters.includes(letter) ? letter : '_';
       })
@@ -183,19 +184,29 @@ const Hang = () => {
 
       {/* Keyboard for Guessing Letters */}
       <section className='flex justify-center items-center flex-col'>
+        
         <div className="grid grid-cols-7 gap-2 mb-8">
-          {Array.from('ابتثجحخدذرزسشصضطظعغفقكلمنهويئءأإڤچؤ').map((letter) => (
-            <button
-              key={letter}
-              onClick={() => handleGuess(letter)}
-              disabled={guessedLetters.includes(letter) || gameOver || gameWon}
-              className={`p-2 text-2xl w-[45px] font-bold bg-blue-500 text-white rounded ${
-                guessedLetters.includes(letter) ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-600'
-              }`}
-            >
-              {letter}
-            </button>
-          ))}
+          {Array.from('خحجثتباصشسزرذدقفغعظطضيوهنملكئءأإڤچؤآةى١٢٣٤٥٦٧٨٩').map((letter) => {
+            // Check if the character is a number
+            const isNumber = /[٠-٩0-9]/.test(letter);
+
+            return (
+              <button
+                key={letter}
+                onClick={() => handleGuess(letter)}
+                disabled={guessedLetters.includes(letter) || gameOver || gameWon}
+                className={`p-2 text-2xl w-[45px] font-bold text-white rounded ${
+                  guessedLetters.includes(letter) 
+                    ? 'opacity-50 cursor-not-allowed' 
+                    : isNumber 
+                      ? 'bg-red-500 hover:bg-red-600' // Red for numbers
+                      : 'bg-blue-500 hover:bg-blue-600' // Blue for letters
+                }`}
+              >
+                {letter}
+              </button>
+            );
+          })}
         </div>
 
         {/* Reset Button */}
@@ -203,7 +214,7 @@ const Hang = () => {
           onClick={resetGame}
           className="p-2 text-xl font-bold bg-green-500 text-white rounded hover:bg-green-600"
         >
-          إعادة اللعبة
+          عرض
         </button>
       </section>
 
