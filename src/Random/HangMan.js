@@ -3,7 +3,7 @@ import { info } from '../Random_infos/Hang_info';
 import { Link } from 'react-router-dom';
 
 import winSound from '../bravo.mp3';
-import loseSound from '../lose.mp3';
+import loseSound from '../lose2.mp3';
 
 const Hang = () => {
 
