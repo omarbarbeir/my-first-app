@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-first-app/static/css/main.bd0a4744.css",
-    "main.js": "/my-first-app/static/js/main.13389eb9.js",
+    "main.js": "/my-first-app/static/js/main.083eaa46.js",
     "static/js/885.fadb90ec.chunk.js": "/my-first-app/static/js/885.fadb90ec.chunk.js",
     "static/js/488.9dd93a3b.chunk.js": "/my-first-app/static/js/488.9dd93a3b.chunk.js",
     "static/media/Benoit Badiashile.png": "/my-first-app/static/media/Benoit Badiashile.20ae25bc16be3c80d606.png",
@@ -261,7 +261,6 @@
     "static/media/ya regal elalam etahedo.jpg": "/my-first-app/static/media/ya regal elalam etahedo.3e49c7c680ca0859d32d.jpg",
     "static/media/Oija.jpg": "/my-first-app/static/media/Oija.c381204f5679f9db89ed.jpg",
     "static/media/denmark.jpg": "/my-first-app/static/media/denmark.adffd1eca8a8d231168a.jpg",
-    "static/media/lose.mp3": "/my-first-app/static/media/lose.31022f633a69a3bf8b3c.mp3",
     "static/media/talk in banned.jpg": "/my-first-app/static/media/talk in banned.8fcd97094742620d0b4f.jpg",
     "static/media/dominik szoboszlai.jpeg": "/my-first-app/static/media/dominik szoboszlai.511dc68495c6694077f6.jpeg",
     "static/media/germany.jpg": "/my-first-app/static/media/germany.c96e4340efdcf3b061e6.jpg",
@@ -337,6 +336,7 @@
     "static/media/what.jpg": "/my-first-app/static/media/what.893dde733a3236e6dceb.jpg",
     "static/media/Mafish_Gher_Kida_Poster.gif": "/my-first-app/static/media/Mafish_Gher_Kida_Poster.9a7f6d18f74702a6733d.gif",
     "static/media/Shabab_Take_Away_Poster.jpg": "/my-first-app/static/media/Shabab_Take_Away_Poster.4fc3aeb69272b2f11691.jpg",
+    "static/media/lose2.mp3": "/my-first-app/static/media/lose2.402ae4026defddfbb42b.mp3",
     "static/media/90 min.jpg": "/my-first-app/static/media/90 min.ef0389b1aee00a44b9c5.jpg",
     "static/media/Kamel_El_Awsaf_Poster.jpg": "/my-first-app/static/media/Kamel_El_Awsaf_Poster.f6e8b957aea1afa2449f.jpg",
     "static/media/westham.png": "/my-first-app/static/media/westham.d706ecd0b16aa18e504b.png",
@@ -1063,12 +1063,12 @@
     "static/media/ahmed shaikh.jpeg": "/my-first-app/static/media/ahmed shaikh.8d854471f6f4037f23c1.jpeg",
     "index.html": "/my-first-app/index.html",
     "main.bd0a4744.css.map": "/my-first-app/static/css/main.bd0a4744.css.map",
-    "main.13389eb9.js.map": "/my-first-app/static/js/main.13389eb9.js.map",
+    "main.083eaa46.js.map": "/my-first-app/static/js/main.083eaa46.js.map",
     "885.fadb90ec.chunk.js.map": "/my-first-app/static/js/885.fadb90ec.chunk.js.map",
     "488.9dd93a3b.chunk.js.map": "/my-first-app/static/js/488.9dd93a3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd0a4744.css",
-    "static/js/main.13389eb9.js"
+    "static/js/main.083eaa46.js"
   ]
 }
