@@ -86,15 +86,18 @@ const Hang = () => {
 
   const displayWord = () => {
     return word
-      .split('')
-      .map((letter) => {
-        if (letter === ' ') {
-          return ' '; // Keep spaces as empty spaces
-        }
-        return guessedLetters.includes(letter) ? letter : '_';
+      .split(' ') // Split the word into an array of words based on spaces
+      .map((wordPart) => {
+        return wordPart
+          .split('') // Split each word into individual letters
+          .map((letter) => {
+            return guessedLetters.includes(letter) ? letter : '_'; // Replace unguessed letters with underscores
+          })
+          .join(' '); // Add a space between each character in the word
       })
-      .join(' '); // Add a space between each character
+      .join(' / '); // Join the words with a '/' between them
   };
+  
   
 
   // Display the hangman figure
