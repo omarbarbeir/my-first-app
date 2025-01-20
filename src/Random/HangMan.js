@@ -95,7 +95,7 @@ const Hang = () => {
           })
           .join(' '); // Add a space between each character in the word
       })
-      .join(' / '); // Join the words with a '/' between them
+      .join(' * '); // Join the words with a '/' between them
   };
   
   
