@@ -71,18 +71,31 @@ const Hang = () => {
   }, [guessedLetters, incorrectGuesses, word]);
 
   // Display the word with guessed letters and handle spaces (RTL)
+  // const displayWord = () => {
+  //   return word
+  //     .split('')
+  //     .map((letter) => {
+  //       if (letter === ' ') {
+  //         return ' '; // Keep spaces as empty spaces
+          
+  //       }
+  //       return guessedLetters.includes(letter) ? letter : '_';
+  //     })
+  //     .join(''); // No need to reverse, just join the array
+  // };
+
   const displayWord = () => {
     return word
       .split('')
       .map((letter) => {
         if (letter === ' ') {
           return ' '; // Keep spaces as empty spaces
-          
         }
         return guessedLetters.includes(letter) ? letter : '_';
       })
-      .join(''); // No need to reverse, just join the array
+      .join(' '); // Add a space between each character
   };
+  
 
   // Display the hangman figure
   const hangmanFigure = () => {
@@ -157,7 +170,7 @@ const Hang = () => {
         </div>
 
         {/* Display Word with Guessed Letters (RTL) */}
-        <div className="text-4xl font-bold mb-8 gap-x-3 text-white" style={{ direction: 'rtl' }}>
+        <div className="text-4xl font-bold mb-8 gap-x-6  text-white" style={{ direction: 'rtl' }}>
           {displayWord()}
         </div>
 
@@ -195,7 +208,7 @@ const Hang = () => {
                 key={letter}
                 onClick={() => handleGuess(letter)}
                 disabled={guessedLetters.includes(letter) || gameOver || gameWon}
-                className={`p-2 text-2xl w-[45px] font-bold text-white rounded ${
+                className={`p-2 text-2xl w-[45px] font-bold text-white shadow-black/60 shadow  rounded ${
                   guessedLetters.includes(letter) 
                     ? 'opacity-50 cursor-not-allowed' 
                     : isNumber 
