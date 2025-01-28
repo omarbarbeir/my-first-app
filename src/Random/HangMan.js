@@ -163,7 +163,7 @@ const Hang = () => {
   };
 
   return (
-    <div className="flex flex-col items-center lg:justify-around justify-center min-h-screen lg:flex-row bg-[#135570] p-5">
+    <div className="flex flex-col items-center lg:justify-around justify-center min-h-screen lg:flex-row bg-[#234d6d] p-5">
       <section className='lg:flex lg:flex-col lg:justify-center lg:items-center'>
         <h1 className="text-4xl font-bold mb-8">لعبة Hangman</h1>
         
@@ -185,7 +185,7 @@ const Hang = () => {
           <div className="fixed inset-0 z-10 flex items-center justify-center bg-black bg-opacity-50">
             <div className="bg-white p-8 rounded-lg text-center">
               <div className="text-2xl font-bold mb-8">
-                {gameWon ? '🎉 لقد فزت! 🎉' : 'خسرت الكلمة كانت: ' + word}
+              {gameWon ? '🎉 لقد فزت! 🎉' : < >خسرت <br /> الكلمة كانت : {word} </>}
               </div>
               <button
                 onClick={resetGame}
@@ -211,12 +211,12 @@ const Hang = () => {
                 key={letter}
                 onClick={() => handleGuess(letter)}
                 disabled={guessedLetters.includes(letter) || gameOver || gameWon}
-                className={`p-2 text-2xl w-[45px] font-bold text-white shadow-black/60 shadow  rounded ${
+                className={`p-2 text-2xl w-[45px] font-bold text-white shadow-black/20 shadow  rounded ${
                   guessedLetters.includes(letter) 
                     ? 'opacity-50 cursor-not-allowed' 
                     : isNumber 
-                      ? 'bg-red-500 hover:bg-red-600' // Red for numbers
-                      : 'bg-blue-500 hover:bg-blue-600' // Blue for letters
+                      ? ' bg-orange-600 hover:bg-orange-700' // Red for numbers
+                      : 'bg-emerald-600 hover:bg-emerald-700' // Blue for letters
                 }`}
               >
                 {letter}
@@ -228,7 +228,7 @@ const Hang = () => {
         {/* Reset Button */}
         <button
           onClick={resetGame}
-          className="p-2 text-xl font-bold bg-green-500 text-white rounded hover:bg-green-600"
+          className="p-2 text-2xl w-[140px] font-bold bg-amber-500 text-white rounded hover:bg-amber-600"
         >
           عرض
         </button>
