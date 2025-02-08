@@ -6,5 +6,9 @@ export let RandomCats = [
     {
         desc:"العاب الذاكره",
         path:"/Mosalsal"
+    },
+    {
+        desc:"XO",
+        path:"/XO"
     }
 ]

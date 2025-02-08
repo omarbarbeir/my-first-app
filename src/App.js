@@ -22,6 +22,7 @@ import LS from './Football Comps/Ladder_Snake';
 import Casino from './Casinno/Casino';
 import Hang from "./Random/HangMan"
 import Ran from "./Random_infos/RandomCatsInfo"
+import XO from "./Random/XO"
 import { BrowserRouter , Routes , Route ,HashRouter } from 'react-router-dom';
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
           <Route path="/Casino" element={<Casino></Casino>}></Route>
           <Route path="/Ran" element={<Ran></Ran>}></Route>
           <Route path="/Hang" element={<Hang></Hang>}></Route>
+          <Route path="/XO" element={<XO></XO>}></Route>
         </Routes>
       </HashRouter>
     </div>
