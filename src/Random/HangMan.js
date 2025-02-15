@@ -173,7 +173,7 @@ const Hang = () => {
         </div>
 
         {/* Display Word with Guessed Letters (RTL) */}
-        <div className="text-4xl font-bold mb-8 gap-x-6  text-white" style={{ direction: 'rtl' }}>
+        <div className="md:text-4xl lg:text-4xl text-3xl font-bold mb-8 gap-x-6 text-white" style={{ direction: 'rtl' }}>
           {displayWord()}
         </div>
 
