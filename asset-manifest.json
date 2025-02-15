@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-first-app/static/css/main.a87d79e0.css",
-    "main.js": "/my-first-app/static/js/main.52e096ea.js",
+    "main.css": "/my-first-app/static/css/main.a23c5300.css",
+    "main.js": "/my-first-app/static/js/main.35d21ce8.js",
     "static/js/885.fadb90ec.chunk.js": "/my-first-app/static/js/885.fadb90ec.chunk.js",
     "static/js/488.9dd93a3b.chunk.js": "/my-first-app/static/js/488.9dd93a3b.chunk.js",
     "static/media/Benoit Badiashile.png": "/my-first-app/static/media/Benoit Badiashile.20ae25bc16be3c80d606.png",
@@ -29,6 +29,7 @@
     "static/media/De paul.jpeg": "/my-first-app/static/media/De paul.0552fef235c4c6ebfb2d.jpeg",
     "static/media/belya.png": "/my-first-app/static/media/belya.1b96803e2c3dd4fc3aa7.png",
     "static/media/football.jpeg": "/my-first-app/static/media/football.36e5166c3fa737f27e2c.jpeg",
+    "static/media/shoberr.png": "/my-first-app/static/media/shoberr.acbe7156c03df72e8649.png",
     "static/media/abo_trika_al_ahly.jpg": "/my-first-app/static/media/abo_trika_al_ahly.7e1f8209336772b9b127.jpg",
     "static/media/Erik Lamela.png": "/my-first-app/static/media/Erik Lamela.a356cd35af6ca2b7b631.png",
     "static/media/Victor Lindelöf.png": "/my-first-app/static/media/Victor Lindelöf.13fa1caedf194b238f74.png",
@@ -1068,13 +1069,13 @@
     "static/media/antwe.jpeg": "/my-first-app/static/media/antwe.0341e811bab15b78563b.jpeg",
     "static/media/ahmed shaikh.jpeg": "/my-first-app/static/media/ahmed shaikh.8d854471f6f4037f23c1.jpeg",
     "index.html": "/my-first-app/index.html",
-    "main.a87d79e0.css.map": "/my-first-app/static/css/main.a87d79e0.css.map",
-    "main.52e096ea.js.map": "/my-first-app/static/js/main.52e096ea.js.map",
+    "main.a23c5300.css.map": "/my-first-app/static/css/main.a23c5300.css.map",
+    "main.35d21ce8.js.map": "/my-first-app/static/js/main.35d21ce8.js.map",
     "885.fadb90ec.chunk.js.map": "/my-first-app/static/js/885.fadb90ec.chunk.js.map",
     "488.9dd93a3b.chunk.js.map": "/my-first-app/static/js/488.9dd93a3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a87d79e0.css",
-    "static/js/main.52e096ea.js"
+    "static/css/main.a23c5300.css",
+    "static/js/main.35d21ce8.js"
   ]
 }
