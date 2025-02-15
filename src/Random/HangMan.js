@@ -181,7 +181,7 @@ const Hang = () => {
         <div className="text-xl text-white font-semibold mb-8">💡 تلميح: {hint}</div>
 
         {/* Display Game Status */}
-        {gameOver && (
+        {/* {gameOver && (
           <div className="fixed inset-0 z-10 flex items-center justify-center bg-black bg-opacity-50">
             <div className="bg-white p-8 rounded-lg text-center">
               <div className="text-2xl font-bold mb-8">
@@ -195,7 +195,30 @@ const Hang = () => {
               </button>
             </div>
           </div>
-        )}
+        )} */}
+          {gameOver && (
+            <div className="fixed inset-0 z-10 flex items-center justify-center bg-black bg-opacity-50">
+              <div className="bg-white p-8 rounded-lg text-center">
+                {/* Add the image here */}
+                {!gameWon && (
+                  <img 
+                    src={require("../imgs/shoberr.png")} // Update this path to your image
+                    alt="Lost" 
+                    className="w-[180px] h-[180px] mx-auto mb-4" // Adjust the size and margin as needed
+                  />
+                )}
+                <div className="text-2xl font-bold mb-8">
+                  {gameWon ? '🎉 لقد فزت! 🎉' : <>خسرت <br /> الكلمة كانت : {word}</>}
+                </div>
+                <button
+                  onClick={resetGame}
+                  className="p-2 text-xl font-bold bg-green-500 text-white rounded hover:bg-green-600"
+                >
+                  إعادة اللعبة
+                </button>
+              </div>
+            </div>
+  )}
       </section>
 
       {/* Keyboard for Guessing Letters */}
