@@ -202,9 +202,9 @@ const Hang = () => {
                 {/* Add the image here */}
                 {!gameWon && (
                   <img 
-                    src={require("../imgs/shoberr.png")} // Update this path to your image
+                    src={require("../imgs/shobber.jpg")} // Update this path to your image
                     alt="Lost" 
-                    className="w-[180px] h-[180px] mx-auto mb-4" // Adjust the size and margin as needed
+                    className="w-[230px] h-[230px] mx-auto mb-2" // Adjust the size and margin as needed
                   />
                 )}
                 <div className="text-2xl font-bold mb-8">
@@ -225,7 +225,7 @@ const Hang = () => {
       <section className='flex justify-center items-center flex-col'>
         
         <div className="grid grid-cols-7 gap-2 mb-8">
-          {Array.from('خحجثتباصشسزرذدقفغعظطضيوهنملكئءأإڤچؤآةى١٢٣٤٥٦٧٨٩').map((letter) => {
+          {Array.from('خحجثتباصشسزرذدقفغعظطضيوهنملكئءأإڤچؤآةى١٢٣٤٥٦٧٨٩٠').map((letter) => {
             // Check if the character is a number
             const isNumber = /[٠-٩0-9]/.test(letter);
 
