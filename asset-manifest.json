@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-first-app/static/css/main.2f15e8ae.css",
-    "main.js": "/my-first-app/static/js/main.1fd16285.js",
+    "main.css": "/my-first-app/static/css/main.0609e62e.css",
+    "main.js": "/my-first-app/static/js/main.d9889ba4.js",
     "static/js/885.fadb90ec.chunk.js": "/my-first-app/static/js/885.fadb90ec.chunk.js",
     "static/js/488.9dd93a3b.chunk.js": "/my-first-app/static/js/488.9dd93a3b.chunk.js",
     "static/media/Benoit Badiashile.png": "/my-first-app/static/media/Benoit Badiashile.20ae25bc16be3c80d606.png",
@@ -29,7 +29,6 @@
     "static/media/De paul.jpeg": "/my-first-app/static/media/De paul.0552fef235c4c6ebfb2d.jpeg",
     "static/media/belya.png": "/my-first-app/static/media/belya.1b96803e2c3dd4fc3aa7.png",
     "static/media/football.jpeg": "/my-first-app/static/media/football.36e5166c3fa737f27e2c.jpeg",
-    "static/media/shoberr.png": "/my-first-app/static/media/shoberr.acbe7156c03df72e8649.png",
     "static/media/abo_trika_al_ahly.jpg": "/my-first-app/static/media/abo_trika_al_ahly.7e1f8209336772b9b127.jpg",
     "static/media/Erik Lamela.png": "/my-first-app/static/media/Erik Lamela.a356cd35af6ca2b7b631.png",
     "static/media/Victor Lindelöf.png": "/my-first-app/static/media/Victor Lindelöf.13fa1caedf194b238f74.png",
@@ -147,6 +146,7 @@
     "static/media/japan.jpg": "/my-first-app/static/media/japan.d8a866a30f5a0f179494.jpg",
     "static/media/reus.jpg": "/my-first-app/static/media/reus.121bcd9355be9f5f5ec1.jpg",
     "static/media/Fiorentina.jpg": "/my-first-app/static/media/Fiorentina.aba6d76f4cfe90a871b3.jpg",
+    "static/media/shobber.jpg": "/my-first-app/static/media/shobber.b9a8b858540cc0b1c02d.jpg",
     "static/media/klopp.jpg": "/my-first-app/static/media/klopp.af95d36dfcc7b12c4710.jpg",
     "static/media/Chelsea.jpg": "/my-first-app/static/media/Chelsea.94891e60de9ce7800334.jpg",
     "static/media/juve.jpg": "/my-first-app/static/media/juve.27bffd5efc407e76552c.jpg",
@@ -1069,13 +1069,13 @@
     "static/media/antwe.jpeg": "/my-first-app/static/media/antwe.0341e811bab15b78563b.jpeg",
     "static/media/ahmed shaikh.jpeg": "/my-first-app/static/media/ahmed shaikh.8d854471f6f4037f23c1.jpeg",
     "index.html": "/my-first-app/index.html",
-    "main.2f15e8ae.css.map": "/my-first-app/static/css/main.2f15e8ae.css.map",
-    "main.1fd16285.js.map": "/my-first-app/static/js/main.1fd16285.js.map",
+    "main.0609e62e.css.map": "/my-first-app/static/css/main.0609e62e.css.map",
+    "main.d9889ba4.js.map": "/my-first-app/static/js/main.d9889ba4.js.map",
     "885.fadb90ec.chunk.js.map": "/my-first-app/static/js/885.fadb90ec.chunk.js.map",
     "488.9dd93a3b.chunk.js.map": "/my-first-app/static/js/488.9dd93a3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f15e8ae.css",
-    "static/js/main.1fd16285.js"
+    "static/css/main.0609e62e.css",
+    "static/js/main.d9889ba4.js"
   ]
 }
