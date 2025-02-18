@@ -9,6 +9,7 @@ const Hang = () => {
 
   const [word, setWord] = useState('');
   const [hint, setHint] = useState('');
+  const [singer, setSinger] = useState('');
   const [guessedLetters, setGuessedLetters] = useState([]);
   const [incorrectGuesses, setIncorrectGuesses] = useState(0);
   const [gameOver, setGameOver] = useState(false);
@@ -27,6 +28,7 @@ const Hang = () => {
     const randomEntry = info[Math.floor(Math.random() * info.length)];
     setWord(randomEntry.word);
     setHint(randomEntry.hint);
+    setSinger(randomEntry.singer);
 
     // Do not reveal any letters at the start
     setGuessedLetters([]);
@@ -163,7 +165,7 @@ const Hang = () => {
   };
 
   return (
-    <div className="flex flex-col items-center lg:justify-around justify-center min-h-screen lg:flex-row bg-[#234d6d] p-5">
+    <div className="flex flex-col items-center lg:justify-around justify-center min-h-screen lg:flex-row bg-[#182d41] p-5">
       <section className='lg:flex lg:flex-col lg:justify-center lg:items-center'>
         <h1 className="text-4xl font-bold mb-8">لعبة Hangman</h1>
         
@@ -173,19 +175,33 @@ const Hang = () => {
         </div>
 
         {/* Display Word with Guessed Letters (RTL) */}
-        <div className="md:text-4xl lg:text-4xl text-3xl font-bold mb-8 gap-x-6 text-white" style={{ direction: 'rtl' }}>
+        <div className="md:text-4xl p-2 lg:text-4xl text-3xl font-bold mb-8 gap-x-6 text-white" style={{ direction: 'rtl'}}>
           {displayWord()}
         </div>
 
         {/* Display Hint */}
         <div className="text-xl text-white font-semibold mb-8">💡 تلميح: {hint}</div>
-
-        {/* Display Game Status */}
-        {/* {gameOver && (
+        {gameOver && (
           <div className="fixed inset-0 z-10 flex items-center justify-center bg-black bg-opacity-50">
             <div className="bg-white p-8 rounded-lg text-center">
+              {/* Add the image here */}
+              {!gameWon && (
+                <img 
+                  src={require("../imgs/shobber.jpg")} // Update this path to your image
+                  alt="Lost" 
+                  className="w-[260px] h-[260px] mx-auto mb-2" // Adjust the size and margin as needed
+                />
+              )}
               <div className="text-2xl font-bold mb-8">
-              {gameWon ? '🎉 لقد فزت! 🎉' : < >خسرت <br /> الكلمة كانت : {word} </>}
+                {gameWon ? (
+                  '🎉 لقد فزت! 🎉'
+                ) : (
+                  <>
+                    <div className="mb-4">خسرت</div> {/* Added margin-bottom */}
+                    <div className="mb-4">الكلمة كانت : {word}</div> {/* Added margin-bottom */}
+                    {singer && <div>المطرب : {singer}</div>} {/* Conditionally display singer if it exists */}
+                  </>
+                )}
               </div>
               <button
                 onClick={resetGame}
@@ -195,30 +211,7 @@ const Hang = () => {
               </button>
             </div>
           </div>
-        )} */}
-          {gameOver && (
-            <div className="fixed inset-0 z-10 flex items-center justify-center bg-black bg-opacity-50">
-              <div className="bg-white p-8 rounded-lg text-center">
-                {/* Add the image here */}
-                {!gameWon && (
-                  <img 
-                    src={require("../imgs/shobber.jpg")} // Update this path to your image
-                    alt="Lost" 
-                    className="w-[230px] h-[230px] mx-auto mb-2" // Adjust the size and margin as needed
-                  />
-                )}
-                <div className="text-2xl font-bold mb-8">
-                  {gameWon ? '🎉 لقد فزت! 🎉' : <>خسرت <br /> الكلمة كانت : {word}</>}
-                </div>
-                <button
-                  onClick={resetGame}
-                  className="p-2 text-xl font-bold bg-green-500 text-white rounded hover:bg-green-600"
-                >
-                  إعادة اللعبة
-                </button>
-              </div>
-            </div>
-  )}
+        )}
       </section>
 
       {/* Keyboard for Guessing Letters */}
@@ -238,8 +231,8 @@ const Hang = () => {
                   guessedLetters.includes(letter) 
                     ? 'opacity-50 cursor-not-allowed' 
                     : isNumber 
-                      ? ' bg-orange-600 hover:bg-orange-700' // Red for numbers
-                      : 'bg-emerald-600 hover:bg-emerald-700' // Blue for letters
+                      ? 'bg-stone-600 hover:bg-stone-700' // Red for numbers
+                      : 'bg-red-800 hover:bg-red-950' // Blue for letters
                 }`}
               >
                 {letter}
@@ -251,7 +244,7 @@ const Hang = () => {
         {/* Reset Button */}
         <button
           onClick={resetGame}
-          className="p-2 text-2xl w-[140px] font-bold bg-amber-500 text-white rounded hover:bg-amber-600"
+          className="p-2 text-2xl w-[140px] font-bold bg-amber-600 text-white rounded hover:bg-amber-700"
         >
           عرض
         </button>
