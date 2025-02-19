@@ -1632,7 +1632,7 @@ export let info = [
 
 
 
-    { word: 'راجعين', hint: 'أغنية' , singer: 'عمرو دياب'},
+    // { word: 'راجعين', hint: 'أغنية' , singer: 'عمرو دياب'},
 
 
 ];
