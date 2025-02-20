@@ -165,7 +165,7 @@ const Hang = () => {
   };
 
   return (
-    <div className="flex flex-col items-center lg:justify-around justify-center min-h-screen lg:flex-row bg-[#182d41] p-5">
+    <div className="flex flex-col items-center lg:justify-around justify-center min-h-screen lg:flex-row bg-[#373535] p-5">
       <section className='lg:flex lg:flex-col lg:justify-center lg:items-center'>
         <h1 className="text-4xl font-bold mb-8">لعبة Hangman</h1>
         
@@ -231,7 +231,7 @@ const Hang = () => {
                   guessedLetters.includes(letter) 
                     ? 'opacity-50 cursor-not-allowed' 
                     : isNumber 
-                      ? 'bg-stone-600 hover:bg-stone-700' // Red for numbers
+                      ? 'bg-[#404e3e] hover:bg-stone-700' // Red for numbers
                       : 'bg-red-800 hover:bg-red-950' // Blue for letters
                 }`}
               >
