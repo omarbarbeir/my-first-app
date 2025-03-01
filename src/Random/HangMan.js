@@ -232,7 +232,7 @@ const Hang = () => {
                     ? 'opacity-50 cursor-not-allowed' 
                     : isNumber 
                       ? 'bg-[#404e3e] hover:bg-stone-700' // Red for numbers
-                      : 'bg-red-800 hover:bg-red-950' // Blue for letters
+                      : 'bg-cyan-600 hover:bg-cyan-800' // Blue for letters
                 }`}
               >
                 {letter}
