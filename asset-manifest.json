@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-first-app/static/css/main.908655d8.css",
-    "main.js": "/my-first-app/static/js/main.c46d3df7.js",
+    "main.css": "/my-first-app/static/css/main.e2a831da.css",
+    "main.js": "/my-first-app/static/js/main.b3d11aec.js",
     "static/js/885.fadb90ec.chunk.js": "/my-first-app/static/js/885.fadb90ec.chunk.js",
     "static/js/488.9dd93a3b.chunk.js": "/my-first-app/static/js/488.9dd93a3b.chunk.js",
     "static/media/Benoit Badiashile.png": "/my-first-app/static/media/Benoit Badiashile.20ae25bc16be3c80d606.png",
@@ -240,26 +240,21 @@
     "static/media/skoot hansawar.jpg": "/my-first-app/static/media/skoot hansawar.8a32e24f8c43a6fd278a.jpg",
     "static/media/riverplate.jpg": "/my-first-app/static/media/riverplate.035573cc43fa6a1e7770.jpg",
     "static/media/eredivisie.jpg": "/my-first-app/static/media/eredivisie.c04af75da7158ccf6b15.jpg",
-    "static/media/maged elkedwany.jpg": "/my-first-app/static/media/maged elkedwany.b671ae01a32f74840255.jpg",
     "static/media/pato.jpg": "/my-first-app/static/media/pato.51142ef51a974c1a191b.jpg",
     "static/media/zlatan.jpg": "/my-first-app/static/media/zlatan.bcdf1cadb51dd39165b5.jpg",
     "static/media/marseille.jpg": "/my-first-app/static/media/marseille.b20e8c71d87685a24fae.jpg",
     "static/media/france.jpg": "/my-first-app/static/media/france.481d9e9bdd943a0bb576.jpg",
-    "static/media/helmy.jpg": "/my-first-app/static/media/helmy.b70ec9a3b6845bcec1ad.jpg",
     "static/media/love is not enough.webp": "/my-first-app/static/media/love is not enough.eeca3c16d03bcaa4d17d.webp",
     "static/media/kaka.jpg": "/my-first-app/static/media/kaka.84b9d06cccbae5c2c76d.jpg",
     "static/media/Casiedo.jpeg": "/my-first-app/static/media/Casiedo.610bf26860aa4b9890a6.jpeg",
     "static/media/ajax.jpg": "/my-first-app/static/media/ajax.3af59d8c0659518856f6.jpg",
-    "static/media/Ahmed ezz.jpg": "/my-first-app/static/media/Ahmed ezz.f3cb36b1e96b29e89626.jpg",
     "static/media/acmilan.jpg": "/my-first-app/static/media/acmilan.7bbf8415d002075875f0.jpg",
     "static/media/sevilla.jpeg": "/my-first-app/static/media/sevilla.0ad8289c3beedfcd4ab1.jpeg",
     "static/media/the family and the people.jpg": "/my-first-app/static/media/the family and the people.e4087a53f173072cfe67.jpg",
-    "static/media/henedy.jpg": "/my-first-app/static/media/henedy.6afc6d2a6efae025b89b.jpg",
     "static/media/inter milan.jpg": "/my-first-app/static/media/inter milan.d75bb2dc9ac277ad0acb.jpg",
     "static/media/Monaco.jpg": "/my-first-app/static/media/Monaco.387c353472f34c84715d.jpg",
     "static/media/lyon.jpeg": "/my-first-app/static/media/lyon.dae7091a998ebb9482f3.jpeg",
     "static/media/wolfsburg.jpg": "/my-first-app/static/media/wolfsburg.53841b1d0498cb25337f.jpg",
-    "static/media/elsaka.jpg": "/my-first-app/static/media/elsaka.03c66d06725f99511528.jpg",
     "static/media/zaza.jpg": "/my-first-app/static/media/zaza.4760b4348ef372d592a7.jpg",
     "static/media/lamset hanan.jpg": "/my-first-app/static/media/lamset hanan.e57af168046f3b39ac3c.jpg",
     "static/media/Dam_El_Ghazal_Poster.jpg": "/my-first-app/static/media/Dam_El_Ghazal_Poster.5684b3262d1f89b0cf90.jpg",
@@ -271,7 +266,6 @@
     "static/media/dominik szoboszlai.jpeg": "/my-first-app/static/media/dominik szoboszlai.511dc68495c6694077f6.jpeg",
     "static/media/germany.jpg": "/my-first-app/static/media/germany.c96e4340efdcf3b061e6.jpg",
     "static/media/logo_one-removebg-preview.png": "/my-first-app/static/media/logo_one-removebg-preview.94b72429e483f9c90fb4.png",
-    "static/media/hassan hosney.jpg": "/my-first-app/static/media/hassan hosney.8360c2b1532faeef11b9.jpg",
     "static/media/1:8 ashrar.jpg": "/my-first-app/static/media/1:8 ashrar.31e3d53dd8095193345b.jpg",
     "static/media/Frankfurt.jpeg": "/my-first-app/static/media/Frankfurt.10fe0d3d77ab6e0f85da.jpeg",
     "static/media/elhag metwally.jpg": "/my-first-app/static/media/elhag metwally.909948f680aa05a7e5fd.jpg",
@@ -1069,13 +1063,13 @@
     "static/media/antwe.jpeg": "/my-first-app/static/media/antwe.0341e811bab15b78563b.jpeg",
     "static/media/ahmed shaikh.jpeg": "/my-first-app/static/media/ahmed shaikh.8d854471f6f4037f23c1.jpeg",
     "index.html": "/my-first-app/index.html",
-    "main.908655d8.css.map": "/my-first-app/static/css/main.908655d8.css.map",
-    "main.c46d3df7.js.map": "/my-first-app/static/js/main.c46d3df7.js.map",
+    "main.e2a831da.css.map": "/my-first-app/static/css/main.e2a831da.css.map",
+    "main.b3d11aec.js.map": "/my-first-app/static/js/main.b3d11aec.js.map",
     "885.fadb90ec.chunk.js.map": "/my-first-app/static/js/885.fadb90ec.chunk.js.map",
     "488.9dd93a3b.chunk.js.map": "/my-first-app/static/js/488.9dd93a3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.908655d8.css",
-    "static/js/main.c46d3df7.js"
+    "static/css/main.e2a831da.css",
+    "static/js/main.b3d11aec.js"
   ]
 }
