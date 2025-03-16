@@ -1,6 +1,7 @@
 import './App.css';
 import Cinema from "./Components/Cinema"
 import Home from "./Pages/Home"
+import Amsal from "./Components/Amsal"
 import Movies from './Components/Movies';
 import Mosalsalat from './Components/Mosalsalat';
 import AflamJokes from './Components/AflamJokes';
@@ -33,8 +34,9 @@ function App() {
           <Route path='/' element={<Home></Home>}></Route>
           <Route path="/Cinema" element={<Cinema></Cinema>}></Route>
           <Route path="/Movies" element={<Movies></Movies>}></Route>
+          <Route path="/Amsal" element={<Amsal></Amsal>}></Route>
           <Route path="/Mosalsal" element={<Mosalsalat></Mosalsalat>}></Route>
-          {/* <Route path="/AfJokes" element={<AflamJokes></AflamJokes>}></Route> */}
+          <Route path="/AfJokes" element={<AflamJokes></AflamJokes>}></Route>
           <Route path="/Football" element={<Football></Football>}></Route>
           <Route path="/Questions" element={<Questions></Questions>}></Route>
           <Route path="/Five" element={<Five></Five>}></Route>
