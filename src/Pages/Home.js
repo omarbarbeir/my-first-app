@@ -6,7 +6,7 @@ let Home =()=>{
     return(
         <>
             
-                <div className="flex items-center  flex-col p-3 lg:flex-row overflow-x-hidden justify-center bg-[#5667]  md:justify-evenly flex-wrap">
+                <div className="flex items-center  flex-col p-3 lg:flex-row overflow-x-hidden justify-center bg-[#7624b177]  md:justify-evenly flex-wrap">
                     
                     {data.map((e,index)=>{
                         return(
